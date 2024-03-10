@@ -1,0 +1,18 @@
+
+ul,li{
+    text-align: center;
+    color: rgb(175, 175, 175);
+}
+
+body {
+    text-align: center;
+    background: linear-gradient(to right,rgb(174, 174, 174)25%, rgb(175, 175, 175) 25%,  rgb(38, 134, 91) 50%);
+  }
+  input {
+    text-align: center;
+  background-color:rgb(175, 175, 175);
+  color: rgb(38, 134, 91);
+}
+h1{
+    color: rgb(175, 175, 175);
+}

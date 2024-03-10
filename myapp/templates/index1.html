@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %} 
+    <link rel="stylesheet" href="{% static 'oo.css' %}" >
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+    <h1>list of person</h1>
+    <ul>
+    {%for x in person %}
+        <li>{{x}}</li>
+    {%endfor%}
+    </ul>
+    <a href="{% url 'myapp:add'%}">next</a>
+    </div>
+    
+</body>
+</html>
